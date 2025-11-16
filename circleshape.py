@@ -20,6 +20,7 @@ class CircleShape(pygame.sprite.Sprite):
     def update(self, dt):
         # must override
         pass
+        
     def collides_with(self, other):
         point_1 = pygame.math.Vector2(self.position)
         point_2 = pygame.math.Vector2(other.position)
